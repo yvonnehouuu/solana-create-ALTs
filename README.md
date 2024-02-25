@@ -10,8 +10,6 @@ _"To utilize an Address Lookup Table inside a transaction, developers must use v
 According to solana official documents, the Solana runtime supports two transaction versions: `legacy`(old) and `0`(added support for Address Lookup Tables).
 
 
-
-
 ## Part 1: Create a V0 Transaction for Creating ALTs and Adding Addresses to ALTs
 After generating the instruction, we need to send a transaction that can interact with the **address lookup table program**. As the documentation says, we need to use V0 transactions.
 
